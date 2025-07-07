@@ -5,6 +5,8 @@
 //
 // SPDX-License-Identifier: MIT
 
+using  Content.Shared.Inventory;
+
 namespace Content.Shared.Actions;
 
 /// <summary>
@@ -24,7 +26,11 @@ public sealed class ActionGrantSystem : EntitySystem
 
     private void OnItemGet(Entity<ItemActionGrantComponent> ent, ref GetItemActionsEvent args)
     {
+
         if (!TryComp(ent.Owner, out ActionGrantComponent? grant))
+            return;
+
+        if (ent.Comp.ActiveIfWorn && (args.SlotFlags == null || args.SlotFlags == SlotFlags.POCKET))
             return;
 
         foreach (var action in grant.ActionEntities)
