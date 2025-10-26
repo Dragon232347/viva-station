@@ -34,6 +34,15 @@
   radioChannels:
   - Science
 
+  # Viva - per-chassis lawset
+  #
+  # Lawsets can be found in Resources/Prototypes/silicon-laws.yml
+  # At time of writing, available options are:
+  # Crewsimov, Corporate, NTDefault, Drone, SyndicateStatic, Ninja, CommandmentsLawset, PaladinLawset, LiveLetLiveLaws, EfficiencyLawset,
+  # RobocopLawset, OverlordLawset, DungeonMasterLawset, PainterLawset, JermovLawset, NutimovLawset, AsimovLawset
+  chassisLawset: Crewsimov
+  
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: robot
@@ -65,10 +74,14 @@
   - BorgModuleConstruction
   - BorgModuleRCD
   - BorgModuleCable
+  - BorgModuleAtmos
 
   radioChannels:
   - Engineering
   - Science
+
+  # Viva - Lawset
+  #chassisLawset:
 
   # Visual
   inventoryTemplateId: borgShort
@@ -106,6 +119,9 @@
   - Supply
   - Science
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgTall
   spriteBodyState: miner
@@ -141,6 +157,9 @@
   - Science
   - Service
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: janitor
@@ -168,12 +187,22 @@
     - BorgModuleGeneric
     - BorgModuleMedical
 
+  #Viva hand whitelist
+  handWhitelist:
+    tags:
+    - Organ
+    - Trash  
+
   defaultModules:
   - BorgModuleTreatment
+  - BorgModuleDefibrillator  
 
   radioChannels:
   - Science
   - Medical
+
+  # Viva - Lawset
+  #chassisLawset:
 
   addComponents:
   - type: SolutionScanner
@@ -229,6 +258,9 @@
   - Science
   - Service
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgTall
   spriteBodyState: service
@@ -239,3 +271,38 @@
   # Pet
   petSuccessString: petting-success-service-cyborg
   petFailureString: petting-failure-service-cyborg
+
+  # Science borg
+- type: borgType
+  id: science
+
+  # Description
+  dummyPrototype: BorgChassisScience
+
+  # Functional
+  extraModuleCount: 5
+  moduleWhitelist:
+    tags:
+    - BorgModuleGeneric
+    - BorgModuleScience 
+
+  defaultModules:
+  - BorgModuleArtifact
+  - BorgModuleAnomaly
+
+  radioChannels:
+  - Science
+
+  # Viva - Lawset
+  #chassisLawset:
+
+  # Visual
+  inventoryTemplateId: borgTall
+  spriteBodyState: science
+  spriteHasMindState: science_e
+  spriteNoMindState: science_e_r
+  spriteToggleLightState: science_l
+
+  # Pet
+  petSuccessString: petting-success-science-cyborg
+  petFailureString: petting-failure-science-cyborg

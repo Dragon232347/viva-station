@@ -20,6 +20,9 @@
             "name": "icon-anomalies"
         },
         {
+            "name": "icon-advanced-anomalies"
+        },
+        {
             "name": "icon-appraisal"
         },
         {
@@ -84,6 +87,9 @@
         },
         {
             "name": "icon-rcd"
+        },
+        {
+            "name": "icon-atmos"
         },
         {
             "name": "icon-template"

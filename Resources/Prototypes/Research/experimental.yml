@@ -125,6 +125,7 @@
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
   - AnomalyVesselExperimentalCircuitboard
+  - BorgModuleAdvancedAnomaly
   technologyPrerequisites:
   - BasicAnomalousResearch
 
