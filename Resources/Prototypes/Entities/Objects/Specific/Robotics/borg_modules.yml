@@ -526,6 +526,7 @@
     items:
     - RPDRecharging
     - HolofanProjectorRecharging
+    - trayScanner
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: atmos-module }
 
@@ -668,6 +669,12 @@
   - type: ItemBorgModule
     items:
     - NodeScanner
+    - Wrench
+    - Multitool
+    - WelderIndustrial
+    - Syringe
+    - Beaker
+    - SynthesizerInstrument
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: node-scanner-module }
 
@@ -689,6 +696,27 @@
     - Multitool
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: anomaly-module }
+
+- type: entity
+  id: BorgModuleAdvancedAnomaly
+  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
+  name: advanced anomaly cyborg module
+  components:
+  - type: Sprite
+    layers:
+    - state: science
+    - state: icon-advanced-anomalies
+  - type: ItemBorgModule
+    items:
+    - CHIMPRecharging
+    - AnomalyScanner
+    - AnomalyLocatorUnpowered
+    - AnomalyLocatorWideUnpowered
+    - RemoteSignaller
+    - Multitool
+  - type: BorgModuleIcon
+    icon: { sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi, state: base }
+
 
 # service modules
 - type: entity
