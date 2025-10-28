@@ -90,6 +90,10 @@
 #  id: rats
 #  background: /Textures/LobbyScreens/rats.webp
 
-#- type: lobbyBackground
-#  id: cirnoStation
-#  background: /Textures/LobbyScreens/cirnostation.webp
+- type: lobbyBackground
+  id: usualsuspects
+  background: /Textures/LobbyScreens/usualsuspects.webp
+
+- type: lobbyBackground
+  id: termina
+  background: /Textures/LobbyScreens/TERMINA.webp
