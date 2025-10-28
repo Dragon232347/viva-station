@@ -95,4 +95,9 @@
   - Airloss
   - Genetic
   - Metaphysical
-  - Paracausal 
+
+- type: damageContainer
+  id: AiCore
+  supportedGroups:
+  - Brute
+  - Paracausal

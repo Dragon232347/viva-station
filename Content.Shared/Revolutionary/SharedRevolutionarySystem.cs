@@ -6,6 +6,9 @@
 // SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Skye <57879983+Rainbeon@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Tadeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2025 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 ferynn <117872973+ferynn@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 ferynn <witchy.girl.me@gmail.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 //
 // SPDX-License-Identifier: MIT
@@ -21,6 +24,8 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Player;
 using Content.Shared.Antag;
 using Content.Shared.Strip.Components;
+using Content.Shared._DV.CosmicCult.Components;
+using Content.Shared._DV.Roles;
 
 namespace Content.Shared.Revolutionary;
 
@@ -57,11 +62,6 @@ public abstract class SharedRevolutionarySystem : EntitySystem
             return;
         }
 
-        if (HasComp<ThievingComponent>(uid)) // funkystation - We're doing it here because this FUCKING SUCKS
-        {
-            RemComp<ThievingComponent>(uid);
-        }
-
         if (HasComp<RevolutionaryComponent>(uid))
         {
             var stunTime = TimeSpan.FromSeconds(4);
@@ -69,6 +69,13 @@ public abstract class SharedRevolutionarySystem : EntitySystem
             RemComp<RevolutionaryComponent>(uid);
             _sharedStun.TryParalyze(uid, stunTime, true);
             _popupSystem.PopupEntity(Loc.GetString("rev-break-control", ("name", name)), uid);
+        }
+
+        if (HasComp<CosmicCultComponent>(uid) || HasComp<CosmicCultLeadComponent>(uid))
+        {
+            comp.Broken = true; // Goobstation - Broken mindshield implant instead of break it
+            Dirty(uid, comp);
+            return;
         }
     }
 
@@ -104,7 +111,7 @@ public abstract class SharedRevolutionarySystem : EntitySystem
 
         return HasComp<ShowAntagIconsComponent>(uid);
     }
-    
+
     /// <summary>
     /// Dirties all the Rev components so they are sent to clients.
     ///
@@ -150,7 +157,7 @@ public abstract class SharedRevolutionarySystem : EntitySystem
     {
         if (user != target)
             return false;
-        
+
         if (!TryComp<TagComponent>(implant, out var tagComp))
             return false;
 
