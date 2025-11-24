@@ -98,7 +98,6 @@
   id: termina
   background: /Textures/LobbyScreens/TERMINA.webp
 
-
 # credit to @fuzyfries on discord
 - type: lobbyBackground
   id: cargomajor
