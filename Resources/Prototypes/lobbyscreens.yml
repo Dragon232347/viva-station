@@ -97,3 +97,8 @@
 - type: lobbyBackground
   id: termina
   background: /Textures/LobbyScreens/TERMINA.webp
+
+# credit to @fuzyfries on discord
+- type: lobbyBackground
+  id: cargomajor
+  background: /Textures/LobbyScreens/cargomajor.webp
