@@ -35,6 +35,9 @@
             "name": "icon-chemist"
         },
         {
+            "name": "icon-chem"
+        },
+        {
             "name": "icon-clown"
         },
         {
@@ -69,6 +72,9 @@
         },
         {
             "name": "icon-mining"
+        },
+        {
+            "name": "icon-mining-adv"
         },
         {
             "name": "icon-mop"

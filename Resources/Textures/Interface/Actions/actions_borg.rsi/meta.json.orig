@@ -1,0 +1,140 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/cdbcb1e858b11f083994a7a269ed67ef5b452ce9. atmos-module created by @acalicodragon.itch.io (bluesky).",
+    "copyright": "Taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/cdbcb1e858b11f083994a7a269ed67ef5b452ce9, Module actions by Scarky0. chem, adv-chem, and adv-mining by mubururu_",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "state-laws"
+        },
+        {
+            "name": "no-action"
+        },
+        {
+            "name": "tool-module"
+        },
+        {
+            "name": "wire-module"
+        },
+        {
+            "name": "gps-module"
+        },
+        {
+            "name": "extinguisher-module"
+        },
+        {
+            "name": "geiger-module"
+        },
+        {
+            "name": "rcd-module"
+        },
+        {
+            "name": "atmos-module"
+        },
+        {
+            "name": "adv-tools-module"
+        },
+        {
+            "name": "construction-module"
+        },
+        {
+            "name": "appraisal-module"
+        },
+        {
+            "name": "grappling-module"
+        },
+        {
+            "name": "mining-module"
+        },
+        {
+<<<<<<< HEAD
+            "name": "light-replacer-module"
+=======
+            "name":"adv-mining-module"
+        },
+        {
+            "name":"light-replacer-module"
+>>>>>>> 025bf0f48516722b06fa1b39bc8d50128347acdd
+        },
+        {
+            "name": "cleaning-module"
+        },
+        {
+            "name": "adv-cleaning-module"
+        },
+        {
+            "name": "diagnosis-module"
+        },
+        {
+            "name": "treatment-module"
+        },
+        {
+            "name": "surgery-module"
+        },
+        {
+            "name": "adv-surgery-module"
+        },
+        {
+<<<<<<< HEAD
+            "name": "adv-diagnosis-module"
+=======
+            "name":"chem-module"
+        },
+        {
+            "name":"adv-chem-module"
+        },
+        {
+            "name":"adv-diagnosis-module"
+>>>>>>> 025bf0f48516722b06fa1b39bc8d50128347acdd
+        },
+        {
+            "name": "defib-module"
+        },
+        {
+            "name": "node-scanner-module"
+        },
+        {
+            "name": "anomaly-module"
+        },
+        {
+            "name": "advanced-anomaly-module"
+        },
+        {
+            "name": "service-module"
+        },
+        {
+            "name": "musical-module"
+        },
+        {
+            "name": "gardening-module"
+        },
+        {
+            "name": "harvesting-module"
+        },
+        {
+            "name": "clowning-module"
+        },
+        {
+            "name": "syndicate-weapon-module"
+        },
+        {
+            "name": "syndicate-operative-module"
+        },
+        {
+            "name": "syndicate-esword-module"
+        },
+        {
+            "name": "syndicate-l6c-module"
+        },
+        {
+            "name": "syndicate-martyr-module"
+        },
+        {
+            "name": "select-type"
+        }
+    ]
+}
