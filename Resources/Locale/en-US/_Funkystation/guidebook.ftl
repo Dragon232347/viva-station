@@ -29,3 +29,5 @@ guide-entry-alertlevel-delta = Delta Alert
 guide-entry-reactions = Reactions
 
 guide-entry-blood-cult = Blood Cult
+
+guide-entry-order-of-succession = Order of Succession
