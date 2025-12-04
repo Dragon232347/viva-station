@@ -50,7 +50,7 @@
     eyes: ClothingEyesGlassesCommand
     shoes: ClothingShoesBootsLaceup
     ears: ClothingHeadsetCentCom
-    pocket1: BookSpaceLaw
+    pocket1: BookSOP
     pocket2: RubberStampIAA
     belt: ClothingBeltStorageWaistbag
   inhand:
