@@ -126,8 +126,6 @@
     prototypes:
     - BorgModuleCable
     - BorgModuleFireExtinguisher
-    - BorgModuleGPS
-    - BorgModuleRadiationDetection
     - BorgModuleTool
     - BorgModuleArtifact
     - BorgModuleAnomaly

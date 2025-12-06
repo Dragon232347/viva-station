@@ -203,8 +203,6 @@
   - BorgModuleChemical
   - BorgModuleTopicals
   - BorgModuleRescue
-  - BorgModuleTreatment
-  - BorgModuleDefibrillator
 
   radioChannels:
   - Science
