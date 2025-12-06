@@ -12,137 +12,44 @@ SPDX-License-Identifier: MIT
 
 <Document>
   # The Metashield
-  Something that is "shielded" cannot be known by your character during a round until the "revealing condition" happens. This also means that your character cannot do things based on "shielded" information. Knowing or acting on something that is shielded before the revealing condition is met is referred to as metagaming.
+  The possible and common threats within the sector and their overall goal is well known by the crew. Crew do NOT however, know exactly the abilities of, or the specific goals of, any antagonist. When attempting to figure out what is and isn't shielded ask yourself this: "Is it logical for my character to know this?". For example: It is logical to assume a secretive and violent cult is a threat to the station. It is NOT logical to know what each of their spells are or do exactly without witnessing it yourself. Not everyone can know everything ever so avoid knowing everything and anything not mentioned.
 
-  Revealing conditions reveal the shielded information for the round, not for a specific instance. This means that once a revealing condition is met in a round, the shield no longer applies in any case for the remainder of the round.
+  It is excusable to know certain information due to lore based reasons however abusing this fact will be met with swift punishment. Do note the intent of a character knowing otherwise shielded knowledge is roleplaying, and can be seen as powergaming if this is abused. If you have a question on if something is excusable ahelp or make a ticket in the discord!
 
-  ## Nuclear Operatives
+  Your character may discover the existence of certain shielded knowledge during a round. It should be noted Central Command often employs mind altering technology to cover up otherwise sensitive data. This is generally antagonist specifics your character would not know logically and CSOP. CSOP may never be remembered unless directly approved by an admin.
 
-  The existence of Nuclear Operatives beyond a myth that no one would act on isthe  shielded.
+  ## A few notes on specific antagonists and items:
 
-  The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station is not shielded.
+  Changelings are a common folk tale across the galaxy but it is known that there is some truth to the stories of Changelings infiltrating stations. When considering Changelings consider the fact the story your character heard is most likely mostly myth, changed from its original version over decades of being spread across the galaxy from person to person.
 
-  The revealing condition for this shield is any of the following:
-  - discovering a nuclear operative's shuttle
-  - discovering a operative uplink
-  - a War Ops announcement
+  When considering the shield for magic users remember that things such as cults are often very strict about information, it is incredibly rare to have insider knowledge of how magic users and cults function.
 
-  ## Revolutionaries
+  High-tech "Chameleon" technology is known about and utilized across the galaxy. Exactly how to configure a "Chameleon" item is unknown to you unless you are the owner of said item, or have been shown by the owner how to configure it. As such you cannot tell if an item is "Chameleon" technology or not without seeing it in action. This does not prevent being suspicious of if an item is fake, fraudulent, or stolen, esspecially if it is high value.
 
-  The presence of Revolutionary Idealists on station beyond a myth that no one would act on is shielded.
+  Implants are common across the galaxy and it is safe to assume one has an implant if there is little to no other explanation, or if the explanation is less logically sound. The steep consequences for attempting to extract an absent implant are well known and documented, one should think very carefully and consider the evidence before attempting to withdrawl an implant. The exact implants available to Syndicate agents are shielded until seen.
 
-  The fact that they exist in-universe is not shielded.
+  The fact that an item can be something other than what its visual appearance and examine description indicate it logically should be able to do is shielded. This covers items such as hypopens, explosive pens, hypodarts, and other unmarked stealth items. This shield is lifted when you witness an item behaving in a way it shouldn't logically. When lifting this shield the reveal only applies to the specific item in question, though you may begin to be suspicious of other items.
 
-  The revealing condition for this shield is any of the following:
-
-  - the evacuation shuttle being recalled due to reports of unusual activity on the station by Central Command.
-  - being a revolutionary
-  - A mindshield causing the implanted to remember their true allegiance.
-  - witnessing someone being brainwashed by a flash.
-  - discovering a USP (Union of Socialist Planets) fast draw implanter.
-  - discovering a unlocked rev-uplink.
-
-  ## Changelings
-
-  In the eyes of the public, changelings are an exterminated predatory lifeform and their potential existence on the station is shielded.
-  This metashield prohibits players from general crew bloodtesting until the metashield is revealed. Witnessing two of the same person in one location is grounds for a specific blood test on those two individuals, but not a revealing condition itself.
-
-  Knowledge about the abilities of changelings is not shielded.
-
-  The revealing condition for this shield is any of the following:
-  - witnessing the use of changeling-only abilities
-  - witnessing someone trying to absorb a body
-  - witnessing someone changing their appearance
-  - witnessing a positive changeling blood test
-  
-  ## Magic Users
-  
-  Heretics, Wizards, and Cultists are considered and known to crew as "Magic Users".
-  
-  The existence of magic users among crew is not shielded. Though knowledge of their abilities and goals is shielded.
-  
-  The shield prevents people from assuming magic users are inherently bad or antagonistic.
-  
-  The shield does not dictate the contraband status of magic user items.
-
-  The shield prevents people from knowing the purpose and use of role specific items like heretic reality fractures/shifts or cultists pylons/altars. Though they may be suspicious of them.
-  
-  The shield prevents information leading up to being sacrificed from being known: such as people, places, faces, or names. 
-  
-  The revealing condition for this shield is any of the following:
-  
-  - the presence or announcement of an Ascension.
-  - the presence or announcement of the Veil being torn.
-  - the presence or announcement of an Unknown god.
-  - an announcement from the Wizards Federation
-  - the announcement of a "notable increase in Λ-CDM".
-  - witnessing a magic user's transformation (glowing eyes, cosmic energy, etc)
-  - witnessing the act of someone being sacrificed
-  - seeing magic summon mobs / familiars (flesh stalker, juggernauts, etc)
-  
-  ## Implanted Implants
-
-  Implanted implants are shielded.
-
-  Implanters themselves and un-implanted implants are not shielded. This prohibits implant checking.
-
-  The revealing condition for this shield is any of the following:
-  - discovering a non-NT implanter, used or unused
-  - discovering a non-NT implant box
-  - discovering use of a non-NT implant by anyone
-  - experiencing a situation where absolutely no other explanation is possible
-  - discovering an unlocked uplink
-
-  ## Chameleon Items
-
-  Chameleon items are shielded.
-
-  Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon is covered by this shield.
-
-  The revealing condition for this shield is any of the following:
-  - seeing someone else cause any chameleon item to change
-  - finding mysterious fibers
-  - experiencing a situation where absolutely no other explanation is possible
-  - discovering an unlocked uplink
-
-  ## Stealth Items
-
-  The fact that an item can be something other than what its visual appearance and examine description indicate is shielded.
-
-  This shield protects stealth items, including protecting them from being tested.
-
-  The revealing condition for this shield is any of the following:
-  - seeing the item behave differently than the expected behavior for the item
-  - seeing the item used for its hidden purpose
-  - experiencing a situation where absolutely no other explanation is possible
-  - discovering an unlocked uplink
 
   ## Metafriending and Metagrudging
   This section provides additional information on a concept that is prohibited by multiple metashield items that are never revealed IC. Giving a person or character preferential treatment based on something that your character should not know is considered metafriending. Treating a person or character negatively based on something that your character should not know is considered metagrudging.
+
+  This does NOT prohibit inter-round friendships, rivalries, and/or remembering past (canon) shifts. However note that consecutive shifts are not immediately one after eachother and a noteable amount of time may have passed, in which emotions have most likely faded, however grudges may still be held.
+
 
   ## Metafriending Examples
   These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
   - Giving a character additional access or a job because you are friends with the player who is playing that character.
   - Trusting a character because you are friends with the player who is playing that character.
   - Not fighting a character because you are friends with the player who is playing that character.
-  - Ignoring your objective to kill a character because your character and theirs became friends in a previous round.
+  - Ignoring your objective to kill a character because your character and theirs became friends in a previous round. Though some emotional reluctance may be shown for roleplay purposes.
+  - Two characters swiftly going from friendly with eachother to two characters willing to die for eachother because you are friends with the player who is playing the character.
 
   ## Metagrudging Examples
   These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
   - Not giving a character additional access or a job because you are mad at or don't like the player who is playing that character.
   - Not trusting a character because you are mad at or don't like the player who is playing that character.
-  - Starting a fight with a character because of something that they did last round.
+  - Starting a fight with a character because of something that they did last round. Note again that consecutive shifts are not immediately after eachother and a decent amount of time has most likely passed. Grudges may still be held.
   - Starting a fight with a character because they killed you while you were playing a different character.
-  - Targeting or harassing a character based on anything which that character did outside the current round.
   - Targeting or harassing a character based on anything which the character's player did while not playing the character.
-
-  ## Explicitly Not Shielded
-  The following is a list of things that are explicitly not shielded. If something is not on this list, it doesn't mean that it is shielded, but if something is on it then it definitely is not shielded.
-  - The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station.
-  - Items that are of high value or are desired by the Syndicate, and therefore are likely targets of theft.
-  - The idea that any Syndicate agent or other bad actor has goals or objectives that they are attempting to accomplish.
-  - The number of goals or objectives that a Syndicate agent or other bad actor has.
-  - The fact that the Syndicate are enemies of Nanotrasen, and that they regularly attempt to send covert agents to spy on, sabotage, or attack Nanotrasen.
-  - A character's typical appearance. Though you should keep in mind that multiple characters can share the same name.
-  - The fact that the Syndicate have covert items capable of getting items to them, and that these items are known as uplinks.
 </Document>
