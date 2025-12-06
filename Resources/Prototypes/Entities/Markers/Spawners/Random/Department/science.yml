@@ -121,7 +121,7 @@
     - BorgModuleGardening
     - BorgModuleHarvesting
     - BorgModuleAtmos
-    - BorgModuleAdvancedAnomaly
+    - BorgModuleAdvancedTool
     rareChance: 0.1
     prototypes:
     - BorgModuleCable
