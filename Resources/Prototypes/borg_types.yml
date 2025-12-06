@@ -44,7 +44,7 @@
   # Crewsimov, Corporate, NTDefault, Drone, SyndicateStatic, Ninja, CommandmentsLawset, PaladinLawset, LiveLetLiveLaws, EfficiencyLawset,
   # RobocopLawset, OverlordLawset, DungeonMasterLawset, PainterLawset, JermovLawset, NutimovLawset, AsimovLawset
   chassisLawset: Crewsimov
-  
+
 
   # Visual
   inventoryTemplateId: borgShort
@@ -196,7 +196,7 @@
   handWhitelist:
     tags:
     - Organ
-    - Trash  
+    - Trash
 
   defaultModules:
   - BorgModuleTool
@@ -292,7 +292,7 @@
   moduleWhitelist:
     tags:
     - BorgModuleGeneric
-    - BorgModuleScience 
+    - BorgModuleScience
 
   defaultModules:
   - BorgModuleArtifact

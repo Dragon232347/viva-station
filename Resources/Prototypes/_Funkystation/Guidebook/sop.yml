@@ -23,14 +23,22 @@
   - CargoSOP
   - ScienceSOP
   - AlertLevelsSOP
-  - CommandSOPHidden
+  - CommandSOPHidden # Viva
 
   #Edited on Viva, alongside further hidden SoP
 - type: guideEntry
   id: CommandSOP
   name: guide-entry-command-sop
   text: "/ServerInfo/Funkystation/Guidebook/Command/CommandStandardOperatingProcedure.xml"
+  children:
+  - OrderOfSuccession
 
+- type: guideEntry
+  id: OrderOfSuccession
+  name: guide-entry-order-of-succession
+  text: "/ServerInfo/Funkystation/Guidebook/Command/OrderOfSuccession.xml"
+
+# Start Viva
 - type: guideEntry
   id: CommandSOPHidden
   name: Hidden SOP
@@ -54,7 +62,7 @@
   id: CommandSOPClearanceLevel3
   name: Clearance Level 3
   text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel3.xml"
-#end of hidden SOP
+# End Viva
 
 
 - type: guideEntry

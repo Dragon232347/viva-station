@@ -128,6 +128,8 @@
     - id: NitrogenTankFilled
     - id: RadioHandheldCargo #funkystation
     - id: RadioHandheldCommand #funkystation
+    # Viva
+    - id: BookClearance1
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -161,8 +163,10 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
-    - id: BookCorporateSecrets # funky
+    # - id: BookCorporateSecrets # funky
     - id: RadioHandheldCommand #funkystation
+    # Viva
+    - id: BookClearance2
 
 # No laser table + Laser table
 - type: entityTable
@@ -255,6 +259,8 @@
     - id: PDA_cartridge_case
     - id: RadioHandheldService #funkystation
     - id: RadioHandheldCommand #funkystation
+    # Viva
+    - id: BookClearance2
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -288,6 +294,9 @@
     - id: RPD # RPD
     - id: RadioHandheldEngineering #funkystation
     - id: RadioHandheldCommand #funkystation
+    # Viva
+    - id: BookClearance1
+
 # Hardsuit table, used for suit storage as well
 - type: entityTable
   id: FillChiefEngineerHardsuit
@@ -361,6 +370,8 @@
     # Shitmed
     - id: MedicalBiofabMachineBoard
     - id: AutoclaveFlatpack # DV
+    # Viva
+    - id: BookClearance1
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -419,6 +430,8 @@
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
     - id: RadioHandheldScience #funkystation
     - id: RadioHandheldCommand #funkystation
+    # Viva
+    - id: BookClearance1
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
