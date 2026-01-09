@@ -298,6 +298,8 @@
     - id: RPDRecharging
     - id: RadioHandheldEngineering #funkystation
     - id: RadioHandheldCommand #funkystation
+    - id: NuclearCentrifugeMachineCircuitboard #finally existent
+    - id: NuclearFabricatorMachineCircuitboard #why did it not exist in the locker as a failsafe
     # Viva
     - id: BookClearance1
 
@@ -499,7 +501,7 @@
     - id: WantedListCartridge
     - id: DrinkHosFlask
     - id: RadioHandheldCommand #funkystation, no sec radio since they start with one
-    - id: HandheldStationMap #funk, all HoS' must find their way
+    - id: HandheldStationMapTactical #funk, all HoS' must find their way
     - id: BreachingCharge #funkystation knock knock, sec's here
     - id: BreachingCharge #funkystation knock knock, sec's here
     # Viva
