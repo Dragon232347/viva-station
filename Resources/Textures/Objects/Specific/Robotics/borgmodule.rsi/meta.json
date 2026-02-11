@@ -65,9 +65,6 @@
             "name": "icon-grappling-gun"
         },
         {
-            "name": "icon-harvesting"
-        },
-        {
             "name": "icon-light-replacer"
         },
         {
@@ -138,6 +135,9 @@
         },
         {
             "name": "service"
+        },
+        {
+            "name": "icon-cooking"
         },
         {
             "name": "syndicateborgbomb"
