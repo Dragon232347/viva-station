@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseWall
+  id: WallWoodIndestructable
+  suffix: Indestructable
+  name: wood wall
+  description: It looks sturdy
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/wood.rsi
+  - type: Icon
+    sprite: Structures/Walls/wood.rsi
+  - type: IconSmooth
+    key: woods
+    base: wood
+  - type: MeltImmune
+
+
