@@ -1,9 +1,9 @@
 using System.Numerics;
 using System.Linq;
-using Content.Trauma.Shared.AudioMuffle;
+using Content.Shared._Trauma;
 using Robust.Shared.Utility;
 
-namespace Content.Trauma.Client.AudioMuffle;
+namespace Content.Client._Trauma;
 
 public sealed partial class AudioMuffleSystem
 {

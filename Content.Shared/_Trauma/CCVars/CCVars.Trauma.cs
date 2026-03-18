@@ -1,6 +1,6 @@
 using Robust.Shared.Configuration;
 
-namespace Content.Trauma.Common.CCVar;
+namespace Content.Shared._Trauma.CCVars;
 
 [CVarDefs]
 public sealed partial class TraumaCVars

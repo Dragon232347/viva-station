@@ -2,7 +2,7 @@ using System.Numerics;
 using Robust.Shared.Audio.Components;
 using Robust.Shared.GameStates;
 
-namespace Content.Trauma.Shared.AudioMuffle;
+namespace Content.Shared._Trauma;
 
 /// <summary>
 /// Added to obstacles that block sound, used in audio muffle calculations

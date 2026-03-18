@@ -1,6 +1,6 @@
 using System.Numerics;
 using Content.Client.Resources;
-using Content.Trauma.Shared.AudioMuffle;
+using Content.Shared._Trauma;
 using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.ResourceManagement;
@@ -10,7 +10,7 @@ using Robust.Shared.Audio.Components;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
 
-namespace Content.Trauma.Client.AudioMuffle;
+namespace Content.Client._Trauma;
 
 public sealed class AudioMuffleOverlay : Overlay
 {

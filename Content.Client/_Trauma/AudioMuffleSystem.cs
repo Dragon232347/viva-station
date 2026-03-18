@@ -4,8 +4,8 @@ using Content.Shared.Ghost;
 using Content.Shared.Movement.Components;
 using Content.Shared.Physics;
 using Content.Shared.StationAi;
-using Content.Trauma.Common.CCVar;
-using Content.Trauma.Shared.AudioMuffle;
+using Content.Shared._Trauma.CCVars;
+using Content.Shared._Trauma;
 using Robust.Client.Audio;
 using Robust.Client.GameObjects;
 using Robust.Client.GameStates;
@@ -20,7 +20,7 @@ using Robust.Shared.Physics;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
-namespace Content.Trauma.Client.AudioMuffle;
+namespace Content.Client._Trauma;
 
 public sealed partial class AudioMuffleSystem : SharedAudioMuffleSystem
 {
