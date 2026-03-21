@@ -95,6 +95,7 @@
     - localdelete
     - fullstatereset
     - dumpentities
+    - showaudiomuffle # Trauma
 
 - Flags: MAPPING
   Commands:
