@@ -1,0 +1,17 @@
+- type: gameMap
+  id: CampChromite
+  mapName: 'Camp Chromite'
+  mapPath: /Maps/_Viva/CampChromite.yml
+  minPlayers: 5
+  maxPlayers: 50
+  stations:
+    CampChromite:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Nanotrasen Re-Education Facility, Camp Chromite'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency.yml
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ 24, 0 ]
