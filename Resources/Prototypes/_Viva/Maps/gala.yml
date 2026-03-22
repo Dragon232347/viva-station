@@ -1,0 +1,21 @@
+- type: gameMap
+  id: Gala
+  mapName: 'CCOMansion'
+  mapPath: /Maps/_Viva/gala.yml
+  minPlayers: 5
+  maxPlayers: 50
+  stations:
+    CCOMansion:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Central Command Residental Station {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14-SB'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency.yml
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
+            Borg: [ 2, 2 ]
