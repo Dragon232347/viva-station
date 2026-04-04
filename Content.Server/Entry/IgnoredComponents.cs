@@ -68,7 +68,6 @@ namespace Content.Server.Entry
             "OptionsVisualizer",
             "AnomalyScannerScreen",
             "ToggleableLightWieldable", // Goobstation
-            "AudioMuffle", // Trauma
         };
     }
 }
