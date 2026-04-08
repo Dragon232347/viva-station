@@ -137,7 +137,6 @@
   - type: RadiationBlocker
     resistance: 2
   - type: BlockWeather
-  - type: SoundBlocker # Trauma
 
 - type: entity
   parent: BaseWall
